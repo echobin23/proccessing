@@ -12,12 +12,16 @@ void draw(){
   ellipse(ringone, 300, 500-i, 500-i);
 }
 ringone+=speed;
-if(ringone==750){
-  ringone-=speed;
+if(ringone==250){
+ speed=-speed;
+  
 }
 for(int x =0;x<600; x+=60){
   ellipse(ringtwo, 300, 500-x, 500-x);
   
 }
 ringtwo-=speed;
+if(ringtwo==250){
+speed=-speed;
+}
 }

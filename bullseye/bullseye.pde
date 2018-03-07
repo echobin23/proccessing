@@ -15,5 +15,4 @@ else if(count%2==1){
   }
 }
 void draw(){
-  
 }
